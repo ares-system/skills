@@ -1,6 +1,6 @@
 # skills
 
-A collection of [OpenCode](https://opencode.ai) agent skills.
+A collection of [Daemon Protocol](https://daemonprotocol.com) agent skills.
 
 ## Install a skill
 
