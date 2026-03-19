@@ -5,13 +5,13 @@ A collection of [OpenCode](https://opencode.ai) agent skills.
 ## Install a skill
 
 ```bash
-npx skills add fikriaf/skills --skill <skill-name>
+npx skills add ares-system/skills --skill <skill-name>
 ```
 
 Install all skills at once:
 
 ```bash
-npx skills add fikriaf/skills --all
+npx skills add ares-system/skills --all
 ```
 
 ## Available skills
@@ -24,10 +24,10 @@ npx skills add fikriaf/skills --all
 
 ```bash
 # Install daemon-intelligence globally
-npx skills add fikriaf/skills --skill daemon-intelligence -g
+npx skills add ares-system/skills --skill daemon-intelligence -g
 
 # Install into current project only
-npx skills add fikriaf/skills --skill daemon-intelligence
+npx skills add ares-system/skills --skill daemon-intelligence
 ```
 
 ## Adding a new skill
