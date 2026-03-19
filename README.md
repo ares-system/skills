@@ -18,16 +18,22 @@ npx skills add ares-system/skills --all
 
 | Skill | Description |
 |---|---|
-| [daemon-intelligence](./daemon-intelligence/) | Complete reference for the Daemon-AI platform API — auth, chat completions, MCP tools, finance, blockchain intelligence |
+| [ares-system](./ares-system/) | AI-powered security platform with 8 tools: Trident (Solana fuzzing), Semgrep, FuzzyAI, HexStrike, Whistleblower, Checked Math, MCP Injection, Multi-Agent orchestration |
+| [cyclops](./cyclops/) | Cryptocurrency wallet risk analysis — sanctions screening (OFAC), AML/KYC, blockchain graph analysis, entity labeling for ETH/SOL/BTC |
+| [daemon-intelligence](./daemon-intelligence/) | Daemon-AI platform API — auth, chat completions, MCP tools, finance, blockchain intelligence |
+| [obscura-privacy](./obscura-privacy/) | Post-quantum secure privacy vault — Arcium MPC confidential computing, ZK compression (Light Protocol), WOTS+ signatures, stealth addresses |
 
-## Usage example
+## Usage examples
 
 ```bash
-# Install daemon-intelligence globally
-npx skills add ares-system/skills --skill daemon-intelligence -g
+# Install all skills
+npx skills add ares-system/skills --all
 
-# Install into current project only
+# Install individual skills
 npx skills add ares-system/skills --skill daemon-intelligence
+npx skills add ares-system/skills --skill ares-system
+npx skills add ares-system/skills --skill cyclops
+npx skills add ares-system/skills --skill obscura-privacy
 ```
 
 ## Adding a new skill
